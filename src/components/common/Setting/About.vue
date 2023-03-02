@@ -39,18 +39,18 @@ onMounted(() => {
       </h2>
       <div class="p-2 space-y-2 rounded-md bg-neutral-100 dark:bg-neutral-700">
         <p>
-          此项目开源于
+          此网页的提供者为
           <a
             class="text-blue-600 dark:text-blue-500"
-            href="https://github.com/Chanzhaoyu/chatgpt-web"
+            href="https://marlin.red"
             target="_blank"
           >
-            Github
+            Marlin
           </a>
-          免费，并且没有任何形式分付费行为！
+          欢迎您的使用
         </p>
         <p>
-          如果你觉得此项目对你有帮助，请在 Github 帮我点个 Star 或者给予一点赞助，谢谢！
+          如果你觉得此网页有帮助，可微信打赏
         </p>
       </div>
       <p>API方式：{{ config?.apiModel ?? '-' }}</p>
